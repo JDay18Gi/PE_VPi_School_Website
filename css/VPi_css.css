@@ -1,0 +1,642 @@
+/* ------- entire document styling ------- */
+
+html {
+	position: relative;
+	width: 100%
+}
+
+body {
+	position: relative;
+	background-image: url(../images/Gray_Background.png);
+	margin: 0;
+	width: 100%;
+}
+
+* {
+	font-family: 'PT Serif', serif;
+	color: #989898;
+}
+
+ol li,
+ul li {
+	text-indent: 0;
+}
+
+/* --- Start Links --- */
+a {  
+	text-decoration: none;
+	color: #989898;
+}
+
+a:hover {
+	color: #800000;
+}
+
+a:active {
+	color: black;
+}
+/* --- END Links --- */
+
+/* --- Start Key Page Elements --- */
+
+#container {
+	position: relative;
+	background-color: white;
+	height: 100%;
+	width: 94%;
+	margin: 0 auto 0 auto;
+}
+
+.row {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+#row2 {
+	padding-bottom: 5%;
+	border-bottom: 0.1em solid gray;
+}
+
+h2 {
+	position: absolute;
+	bottom: 5%;
+	left: 2%;
+	width: 40%;
+	
+	color: white;
+	font-size: 2.5em;
+}
+
+h3 {
+	position: absolute;
+	bottom: 5%;
+	left: 2%;
+	width: 40%;
+	
+	color: white;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: 100;
+}
+
+.quote {
+	float: right;
+	font-size: 1.5em;
+	font-style: italic;
+	color: #900000;
+	width: 45%;
+	border-left: 2px solid #989898;
+	padding: 2%;
+	margin-left: 2%;
+}
+
+.sig {
+	float: right;
+	font-size: 1em;
+	width: 45%;
+	text-indent: 20%;
+	padding: 2%;
+	margin: -5% 0 0 2%;
+}
+
+h4 {
+	color: black;
+	font-size: 1.5em;
+	text-indent: 0;
+}
+
+#nav {
+	background: #E6E6E6;
+	color: #2D2D2D;
+}
+
+#nav p {
+	display: inline-block;
+	padding: 2% 4% 2% 4%;
+	margin: 0;
+}
+
+/* --- END Key Page Elements --- */
+/* ------- END entire page styling ------- */
+
+/* ------- START Column styling ------- */
+
+.col-1 {
+	display: inline-block;
+	width: 35%;
+}
+
+.col-2 {
+	width: 62%;
+	float:right;
+}
+
+.col-2 p { /* NAVIGATION elements*/
+	color: #989898;
+	display: inline-block;
+	padding: 2%;
+} 
+
+#row2,
+.footer {
+	width: 90%;
+	margin: 4% auto 2% auto;
+	text-indent: 1em;	
+}
+
+#imageRow img {
+	width:100%;
+}
+
+.col-1 img {
+	width:100%;
+}
+
+/* ------- END Column styling ------- */
+
+/* ------- START FOOTER styling ------- */
+
+#copyright {
+	font-size: 0.75em;
+}
+
+#apply p {
+	position: relative;
+	left: 60%;
+	top: -2em;
+	display: inline;
+	width: 35%;
+	padding: 0 3% 0 3%
+}
+
+#apply a {
+	color: #900000;
+}
+
+/* ------- END FOOTER styling ------- */
+
+/* ------- RESPONSIVE MANIPULATIONS ------- */
+/* ------- RESPONSIVE MANIPULATIONS ------- */
+/* ------- RESPONSIVE MANIPULATIONS ------- */
+
+@media screen and (max-width: 850px) {
+	.col-1 {
+		width: 50%;
+	}
+
+	.col-2 {
+		display: inline-block;
+		width: 100%;
+		float:none;
+	}
+
+	#nav p {
+		padding: 3% 4% 3% 4%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	h2 {
+		width: 60%;
+	}
+	.quote {
+		width: 100%;
+		border: none;
+	}
+
+.sig {
+		float: right;
+		font-size: 1em;
+		width: 100%;
+		text-indent: 50%;
+	}
+}
+
+
+@media screen and (max-width: 550px) {
+	h2 {
+		width: 100%;
+	}
+
+	h3 {
+		width: 100%;
+	}
+
+	.col-1 {
+		width: 100%;
+	}
+
+	.col-2 p { /* NAVIGATION elements*/
+		padding: 5%;
+		font-size: 1.25em;
+		margin: 0 auto 0 auto;
+	} 
+
+	#copyright {
+		display: none;
+	}
+
+	#apply p {
+		left: 20%;
+		top: -0.75em;
+		display: inline;
+		width: 40%;
+		padding: 0 5% 0 5%
+	}
+
+	* {
+		color: black;
+	}
+
+	.sig {
+		float: right;
+		font-size: 1em;
+		width: 100%;
+		text-indent: 50%;
+		margin: -8% 2% 10% 2%;
+	}
+
+	#nav p {
+		padding: 5%;
+	}
+	
+}
+
+/* ------- END RESPONSIVE MANIPULATIONS ------- */
+
+/* ------- START PROBLEM   PROBLEM   PROBLEM   ------- */
+/* ------- START PROBLEM   PROBLEM   PROBLEM   ------- */
+/* ------- START PROBLEM   PROBLEM   PROBLEM   ------- */
+
+#problem #imageRow img {
+	width:100%;
+	position: absolute;
+	bottom: -40%;
+}
+
+#problem #imageRow {
+	height: 20em;
+	overflow: hidden;
+}
+
+#problem #row2 img {
+	width: 40%;
+	float: right;
+	margin: 2%;
+}
+
+
+@media screen and (max-width: 875px) {
+	#problem h2 {
+		bottom: 25%;
+	}
+
+	#problem h3 {
+		bottom: 15%;
+	}
+}
+
+
+@media screen and (max-width: 750px) {
+	#problem h2 {
+		bottom: 25%;
+	}
+
+	#problem h3 {
+		bottom: 15%;
+	}
+
+	#problem #imageRow img {
+		bottom: -20%;
+	}
+
+	#problem #row2 img {
+	width: 100%;
+	margin: 5% auto 5% auto;
+	}
+}
+
+/* ------- END PROBLEM   PROBLEM   PROBLEM   ------- */
+/* ------- END PROBLEM   PROBLEM   PROBLEM   ------- */
+/* ------- END PROBLEM   PROBLEM   PROBLEM   ------- */
+
+/* ------- Start  STUDENTS   students   STUDENTS   ------- */
+/* ------- Start  STUDENTS   students   STUDENTS   ------- */
+/* ------- Start  STUDENTS   students   STUDENTS   ------- */
+
+
+#students #imageRow img {
+	width:100%;
+	position: absolute;
+	bottom: -40%;
+}
+
+#students #imageRow {
+	height: 20em;
+	overflow: hidden;
+}
+
+#students #row2 img {
+	width: 40%;
+	float: right;
+	margin: 2%;
+}
+
+#students h2 {
+	width: 100%;
+}
+
+@media screen and (max-width: 875px) {
+	#students h2 {
+		bottom: 23%;
+		width: 100%;
+	}
+
+	#students h3 {
+		bottom: 20%;
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 750px) {
+	#students h2 {
+		bottom: 23%;
+	}
+
+	#students h3 {
+		bottom: 20%;
+	}
+
+	#students #imageRow img {
+		bottom: 0;
+	}
+
+	#students #row2 img {
+	width: 100%;
+	margin: 5% auto 5% auto;
+	}
+}
+
+/* ------- END  STUDENTS   students   STUDENTS   ------- */
+/* ------- END  STUDENTS   students   STUDENTS   ------- */
+/* ------- END  STUDENTS   students   STUDENTS   ------- */
+
+/* ------- Start  SOLUTION   solution   SOLUTION   ------- */
+/* ------- Start  SOLUTION   solution   SOLUTION   ------- */
+/* ------- Start  SOLUTION   solution   SOLUTION   ------- */
+
+#solution #img2 {
+	float: right;
+	width: 35%;
+	height: 30em;
+	overflow: hidden;
+	margin: 2% -1% 2% 2%;
+}
+
+#solution #img2 img {
+	position: relative;
+	left: -50%;
+	width: 150%;
+	height: auto;
+}
+
+#solution #row2 p {
+	text-indent: 0;
+}
+
+@media screen and (max-width: 600px) {
+	#solution #img2 {
+	width: 100%;
+	height: 30em;
+	overflow: hidden;
+	margin: 5% auto 5% auto;
+	}
+}
+
+/* ------- END  SOLUTION   solution   SOLUTION   ------- */
+/* ------- END  SOLUTION   solution   SOLUTION   ------- */
+/* ------- END  SOLUTION   solution   SOLUTION   ------- */
+
+/* ------- START  Admission   admission   Admission   ------- */
+/* ------- START  Admission   admission   Admission   ------- */
+/* ------- START  Admission   admission   Admission   ------- */
+
+#admission #imageRow img {
+	width:100%;
+	position: absolute;
+	bottom: -40%;
+}
+
+#admission #imageRow {
+	height: 20em;
+	overflow: hidden;
+}
+
+
+@media screen and (max-width: 750px) {
+	#admission #imageRow img {
+		bottom: 0;
+	}
+
+	#admission #row2 img {
+	width: 100%;
+	margin: 5% auto 5% auto;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	#admission #imageRow img {
+		bottom: -60%;
+	}
+
+	#admission #imageRow {
+		height: 20em;
+		overflow: hidden;
+	}
+}
+
+/* ------- END  Admission   admission   Admission   ------- */
+/* ------- END  Admission   admission   Admission   ------- */
+/* ------- END  Admission   admission   Admission   ------- */
+
+/* ------- START  HOW IT WORKS  how it works   ------- */
+/* ------- START  HOW IT WORKS  how it works   ------- */
+/* ------- START  HOW IT WORKS  how it works   ------- */
+
+
+#how #row2 p {
+	text-indent: 0;
+}
+
+#how #imageRow img {
+	width:100%;
+	position: absolute;
+	bottom: -40%;
+}
+
+#how #imageRow {
+	height: 20em;
+	overflow: hidden;
+}
+
+#how #img2 {
+	float: right;
+	width: 55%;
+	height: auto;
+	overflow: hidden;
+	margin: 2% -1% 2% 2%;
+}
+
+#how #img2 img {
+	position: relative;
+	left: -5%;
+	width: 125%;
+	height: auto;
+}
+
+@media screen and (max-width: 875px) {
+	#how h2 {
+		bottom: 25%;
+	}
+
+	#how h3 {
+		bottom: 15%;
+	}
+}
+
+
+@media screen and (max-width: 750px) {
+	#how h2 {
+		bottom: 25%;
+	}
+
+	#how h3 {
+		bottom: 15%;
+	}
+
+	#how #imageRow img {
+		bottom: -20%;
+	}
+
+	#how #row2 img {
+	width: 100%;
+	margin: 5% auto 5% auto;
+	}
+
+	#how #img2 {
+		width: 100%;
+		height: 30em;
+		overflow: hidden;
+		margin: 5% auto 5% auto;
+	}
+}
+
+/* ------- END  HOW IT WORKS  how it works   ------- */
+/* ------- END  HOW IT WORKS  how it works   ------- */
+/* ------- END  HOW IT WORKS  how it works   ------- */
+
+/* ------- START  COST        cost             COST   ------- */
+/* ------- START  COST        cost             COST   ------- */
+/* ------- START  COST        cost             COST   ------- */
+
+#cost #imageRow img {
+	width:100%;
+	position: absolute;
+	bottom: -50%;
+}
+
+#cost #imageRow {
+	height: 20em;
+	overflow: hidden;
+}
+
+#cost #img2 {
+	float: right;
+	width: 30%;
+	overflow: hidden;
+	margin: 0 -1% 2% 2%;
+}
+
+#cost #img2 img {
+	position: relative;
+	left: -5%;
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 875px) {
+	#cost #img2 {
+		width: 40%;
+		overflow: hidden;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	#how h2 {
+		bottom: 25%;
+	}
+
+	#how h3 {
+		bottom: 15%;
+	}
+
+	#cost #imageRow img {
+		bottom: 0;
+	}
+
+	#cost #img2 {
+		width: 50%;
+		overflow: hidden;
+	}
+}
+
+/* ------- END  COST        cost             COST   ------- */
+/* ------- END  COST        cost             COST   ------- */
+/* ------- END  COST        cost             COST   ------- */
+
+
+/* ------- Start #ACCREDIT      #ACCREDIT        #ACCREDIT      ------- */
+/* ------- Start #ACCREDIT      #ACCREDIT        #ACCREDIT      ------- */
+/* ------- Start #ACCREDIT      #ACCREDIT        #ACCREDIT      ------- */
+
+#accredit #imageRow img {
+	width:100%;
+	position: absolute;
+	bottom: -50%;
+}
+
+#accredit #imageRow {
+	height: 20em;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 875px) {
+	#accredit h2 {
+		bottom: 25%;
+	}
+
+	#accredit h3 {
+		bottom: 15%;
+	}
+}
+
+
+@media screen and (max-width: 750px) {
+	#accredit h2 {
+		bottom: 25%;
+	}
+
+	#accredit h3 {
+		bottom: 15%;
+	}
+
+	#accredit #imageRow img {
+		bottom: 0;
+	}
+}
+
+/* ------- END #ACCREDIT      #ACCREDIT        #ACCREDIT      ------- */
+/* ------- END #ACCREDIT      #ACCREDIT        #ACCREDIT      ------- */
+/* ------- END #ACCREDIT      #ACCREDIT        #ACCREDIT      ------- */
