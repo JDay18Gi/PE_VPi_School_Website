@@ -8,37 +8,47 @@
     <title>VPi — Students</title>
     <link rel="icon" type="image/png" href="images/VPI_Favicon.png">
     <link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
-    
+
   </head>
 
  <body id="students">
- 
+
  <div id="container">
 
   <div class="row" id="row1">
-    
     <div class="col-1">
-      
+
       <img src="images/VPI_White_Red.png" alt="VPI logo, Van Pelt Institute for Excellence in Business">
     </div>
-    
-    <div class="col-2">
+
+    <div class="col-2" id="menu">
       <p><a href="vpiHome.html">Home</a></p>
       <p><a href="vpiProblem.html">Problem</a></p>
       <p><a href="vpiStudents.html">Students</a></p>
-      <p><a href="vpiSolution.html">Solution</a></p>
-      <p><a href="vpiMajors.html">Majors</a></p>
-      <p><a href="vpiEmployers.html">Employers</a></p>
+      <p id="menu-solution"><a href="vpiSolution.html">Solution</a></p>
+        <div id="menu-dd">
+          <ul id="solution-dd">
+            <a href="vpiSolution.html"><li>Distinctives</li></a>
+            <a href="vpiAdmission.html"><li>Admissions</li></a>
+            <a href="vpiHowItWorks.html"><li>How it Works</li></a>
+            <a href="vpiCost.html"><li>Cost</li></a>
+            <a href="vpiAccreditation.html"><li>Accreditation</li></a>
+          </ul>
+        </div>
+      <p id ="majors"><a href="vpiHome.html">Majors</a></p>
+      <p><a href="vpiHome.html">Employers</a></p>
     </div>
-  
+
   </div>
-  
+
+
+
   <div class="row" id="imageRow">
     <img src="images/D_Tree.jpeg" alt="NYC skyline at night">
     <h2>Students</h2>
     <h3>Character. Excellence. Service. Drive.</h3>
   </div>
-  
+
   <div class="row" id="row2">
 
     <p>The VPi program appeals to individuals who:</p>
@@ -69,7 +79,7 @@
 
     <h4>If you desire to strive after this high standard, we want you in our program.  <a href="vpiApply.html">Apply today!</a></h4>
 
-  
+
   </div>
 
   <div class="row footer">
@@ -77,12 +87,15 @@
       <p>Copyright 2013 Van Pelt Institute</p>
     </div>
     <div id="apply">
-      <p><a href="vpiContact.html">Contact</a></p>
-      <p><a href="vpiApply.html">Apply Now</a></p>
+      <p><a href="vpiHome.html">Contact</a></p>
+      <p><a href="vpiHome.html">Apply Now</a></p>
     </div>
- 
+
   </div>
 
 </div>
- 
- </body>
+
+  <script src="js/vpiJQuery.js"></script>
+  <script src="js/vpi.js"></script>
+
+</body>

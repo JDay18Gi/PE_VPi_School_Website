@@ -8,37 +8,46 @@
     <title>VPi — Problem</title>
     <link rel="icon" type="image/png" href="images/VPI_Favicon.png">
     <link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
-    
+
   </head>
 
  <body id="problem">
- 
+
  <div id="container">
 
   <div class="row" id="row1">
-    
+
     <div class="col-1">
-      
+
       <img src="images/VPI_White_Red.png" alt="VPI logo, Van Pelt Institute for Excellence in Business">
     </div>
-    
-    <div class="col-2">
+
+    <div class="col-2" id="menu">
       <p><a href="vpiHome.html">Home</a></p>
       <p><a href="vpiProblem.html">Problem</a></p>
       <p><a href="vpiStudents.html">Students</a></p>
-      <p><a href="vpiSolution.html">Solution</a></p>
-      <p><a href="vpiMajors.html">Majors</a></p>
-      <p><a href="vpiEmployers.html">Employers</a></p>
+      <p id="menu-solution"><a href="vpiSolution.html">Solution</a></p>
+        <div id="menu-dd">
+          <ul id="solution-dd">
+            <a href="vpiSolution.html"><li>Distinctives</li></a>
+            <a href="vpiAdmission.html"><li>Admissions</li></a>
+            <a href="vpiHowItWorks.html"><li>How it Works</li></a>
+            <a href="vpiCost.html"><li>Cost</li></a>
+            <a href="vpiAccreditation.html"><li>Accreditation</li></a>
+          </ul>
+        </div>
+      <p id ="majors"><a href="vpiHome.html">Majors</a></p>
+      <p><a href="vpiHome.html">Employers</a></p>
     </div>
-  
+
   </div>
-  
+
   <div class="row" id="imageRow">
     <img src="images/WPB_BW_bridge.jpeg" alt="NYC skyline at night">
     <h2>Problem</h2>
     <h3>College is dead. Employers are overwhelmed.</h3>
   </div>
-  
+
   <div class="row" id="row2">
 
     <p>One of the critical components of our program is an emphasis on creating innovative problem solvers. In this spirit, VPi is a solution to some serious problems in business education.  The disconnect between college and the real business world continues to increase.</p>
@@ -75,7 +84,7 @@
       <li>VPi actively pursues employers and educates them on the quality of our students and program.  We offer complementary recruiting services to employers and maintain a website just for them: hirevanpelt.com.</li>
 
       <img src="images/NYC_Sunset.jpeg" alt="City Sunset Photo">
-      
+
       <li>After successfully completing Phase One of our program, students receive a personal webpage on our site.  This page acts as a certified online resume backed by the strength and integrity of the Van Pelt Institute for Excellence in Business.  This acts as a third-party testament to one's qualifications and provides a place for employers to find exceptional candidates.</li>
       <li>Finally, after graduation, we aggressively work to find employment for our students for up to 6 months free of charge.  This includes bimonthly calls with their manager-mentor who will actively seek out opportunities and coach the graduate through applying, interviewing, etc. For most students, this extra help will not be necessary, but we guarantee it as extra insurance.</li>
     </ol>
@@ -113,12 +122,6 @@
 
     <p><b>4. Failure to Ensure Consistency of Credibility</b>With the exception of a few solid institutions, most colleges turn out a disparagingly wide range of quality among their graduates.  More than half of our working population has a college degree and today a degree means very little in regard to credibility. Colleges have failed to facilitate and encourage the pursuit of a full spectrum of credibility.</p>
 
-
-
-    
-
-
-
   </div>
 
   <div class="row footer">
@@ -126,12 +129,16 @@
       <p>Copyright 2013 Van Pelt Institute</p>
     </div>
     <div id="apply">
-      <p><a href="vpiContact.html">Contact</a></p>
-      <p><a href="vpiApply.html">Apply Now</a></p>
+      <p><a href="vpiHome.html">Contact</a></p>
+      <p><a href="vpiHome.html">Apply Now</a></p>
     </div>
- 
+
   </div>
 
 </div>
- 
+
+  <script src="js/vpiJQuery.js"></script>
+  <script src="js/vpi.js"></script>
+
+
  </body>

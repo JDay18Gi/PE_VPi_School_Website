@@ -8,37 +8,45 @@
     <title>VPi — How it Works</title>
     <link rel="icon" type="image/png" href="images/VPI_Favicon.png">
     <link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
-    
+
   </head>
 
  <body id="how">
- 
+
  <div id="container">
 
   <div class="row" id="row1">
-    
     <div class="col-1">
-      
+
       <img src="images/VPI_White_Red.png" alt="VPI logo, Van Pelt Institute for Excellence in Business">
     </div>
-    
-    <div class="col-2">
+
+    <div class="col-2" id="menu">
       <p><a href="vpiHome.html">Home</a></p>
       <p><a href="vpiProblem.html">Problem</a></p>
       <p><a href="vpiStudents.html">Students</a></p>
-      <p><a href="vpiSolution.html">Solution</a></p>
-      <p><a href="vpiMajors.html">Majors</a></p>
-      <p><a href="vpiEmployers.html">Employers</a></p>
+      <p id="menu-solution"><a href="vpiSolution.html">Solution</a></p>
+        <div id="menu-dd">
+          <ul id="solution-dd">
+            <a href="vpiSolution.html"><li>Distinctives</li></a>
+            <a href="vpiAdmission.html"><li>Admissions</li></a>
+            <a href="vpiHowItWorks.html"><li>How it Works</li></a>
+            <a href="vpiCost.html"><li>Cost</li></a>
+            <a href="vpiAccreditation.html"><li>Accreditation</li></a>
+          </ul>
+        </div>
+      <p id ="majors"><a href="vpiHome.html">Majors</a></p>
+      <p><a href="vpiHome.html">Employers</a></p>
     </div>
-  
+
   </div>
-  
+
   <div class="row" id="imageRow">
     <img src="images/How_it_Works.jpg" alt="looking out into the ocean">
     <h2>How it Works</h2>
     <h3>Your Path to Career Advancement</h3>
   </div>
-  
+
   <div class="row" id="nav">
     <p><a href="vpiSolution.html">Distinctives</a></p>
     <p><a href="vpiAdmission.html">Admissions</a></p>
@@ -84,7 +92,7 @@
 
     <h4>Phase 2</h4>
     <p>8 modules of study in major area.</p>
-  
+
   </div>
 
   <div class="row footer">
@@ -92,12 +100,14 @@
       <p>Copyright 2013 Van Pelt Institute</p>
     </div>
     <div id="apply">
-      <p><a href="vpiContact.html">Contact</a></p>
-      <p><a href="vpiApply.html">Apply Now</a></p>
+      <p><a href="vpiHome.html">Contact</a></p>
+      <p><a href="vpiHome.html">Apply Now</a></p>
     </div>
- 
+
   </div>
 
 </div>
- 
+
+  <script src="js/vpiJQuery.js"></script>
+  <script src="js/vpi.js"></script>
  </body>
