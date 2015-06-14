@@ -22,6 +22,50 @@ ul li {
 	text-indent: 0;
 }
 
+#mobile-menu {
+	display: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: static;
+	background: #989898;
+}
+
+#mobile-menu img {
+	width: 80%;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+#mobile-menu p {
+	color: black;
+	width: 49%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	text-indent: 0;
+	vertical-align: middle;
+	font-weight: 900;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+#mobile-menu p:last-child {
+	text-indent: -1em;
+}
+
+#mobile-menu div h4 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
 /* --- Start Links --- */
 a {
 	text-decoration: none;
@@ -51,6 +95,7 @@ a:active {
 	display: block;
 	position: relative;
 	width: 100%;
+	clear: both;
 }
 
 #row2 {
@@ -678,6 +723,21 @@ h4 {
 	#accredit #imageRow img {
 		bottom: 0;
 	}
+}
+
+@media screen and (max-width: 420px) {
+	#menu {
+		display: none;
+	}
+
+	#mobile-menu {
+		display: inline-block;
+	}
+
+	#nav {
+		display: none;
+	}
+
 }
 
 /* ------- END #ACCREDIT      #ACCREDIT        #ACCREDIT      ------- */
