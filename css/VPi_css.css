@@ -511,7 +511,7 @@ h4 {
 /* ------- Start  SOLUTION   solution   SOLUTION   ------- */
 /* ------- Start  SOLUTION   solution   SOLUTION   ------- */
 
-#solution #imageRow {
+#imageRow {
 	margin-top: -0.5em;
 	margin-bottom: -0.5em;
 }
@@ -582,6 +582,7 @@ h4 {
 /* ------- START  Admission   admission   Admission   ------- */
 /* ------- START  Admission   admission   Admission   ------- */
 
+
 #admission #imageRow img {
 	width:100%;
 	position: absolute;
@@ -615,6 +616,36 @@ h4 {
 		overflow: hidden;
 	}
 }
+
+@media screen and (max-width: 420px) {
+	#admission #imageRow {
+		position: static;
+	}
+
+	#admission #imageRow img {
+		position: relative;
+	}
+
+	#admission #imageRow h2 {
+		position: relative;
+		top: -3em;
+	}
+
+	#admission #imageRow h3 {
+		position: relative;
+		top: -10em;
+	}
+
+	#admission #row2 {
+		position: static;
+	}
+}
+
+@media screen and (max-width: 360px) {
+
+	#admission #row2 {
+		margin-top: -7em;
+	}
 
 /* ------- END  Admission   admission   Admission   ------- */
 /* ------- END  Admission   admission   Admission   ------- */
