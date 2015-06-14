@@ -73,6 +73,11 @@ a:active {
 	width: 100%;
 }
 
+#row1 {
+	margin-top: 1%;
+	padding-top: 3%;
+}
+
 #row2 {
 	padding-bottom: 5%;
 	border-bottom: 0.1em solid gray;
@@ -772,3 +777,24 @@ h4 {
 /* ------- END #ACCREDIT      #ACCREDIT        #ACCREDIT      ------- */
 /* ------- END #ACCREDIT      #ACCREDIT        #ACCREDIT      ------- */
 /* ------- END #ACCREDIT      #ACCREDIT        #ACCREDIT      ------- */
+
+
+/* ------- START #HOME      #HOME        #HOME      ------- */
+/* ------- START #HOME      #HOME        #HOME      ------- */
+/* ------- START #HOME      #HOME        #HOME      ------- */
+
+@media screen and (max-width: 420px) {
+	#Home #imageRow img {
+		margin-top: -0.30em;
+	}
+
+	#Home #imageRow h2 {
+		font-size: 2em;
+		bottom: -0.6em;
+		padding: 0;
+	}
+}
+
+/* ------- END #HOME      #HOME        #HOME      ------- */
+/* ------- END #HOME      #HOME        #HOME      ------- */
+/* ------- END #HOME      #HOME        #HOME      ------- */
