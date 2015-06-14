@@ -479,6 +479,28 @@ h4 {
 	}
 }
 
+@media screen and (max-width: 420px) {
+	#students #imageRow {
+		margin-top: -1em;
+		z-index: 500;
+	}
+
+	#students #imageRow img {
+		bottom: 30%;
+	}
+
+	#students #imageRow h2 {
+		bottom: 30%;
+	}
+
+	#students #imageRow h3 {
+		bottom: 30%;
+	}
+
+	#row2 {
+		margin-top: -4em;
+	}
+
 /* ------- END  STUDENTS   students   STUDENTS   ------- */
 /* ------- END  STUDENTS   students   STUDENTS   ------- */
 /* ------- END  STUDENTS   students   STUDENTS   ------- */
