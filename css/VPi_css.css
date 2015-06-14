@@ -2,7 +2,8 @@
 
 html {
 	position: relative;
-	width: 100%
+	width: 100%;
+	overflow-x: hidden;
 }
 
 body {
@@ -500,6 +501,7 @@ h4 {
 	#row2 {
 		margin-top: -4em;
 	}
+}
 
 /* ------- END  STUDENTS   students   STUDENTS   ------- */
 /* ------- END  STUDENTS   students   STUDENTS   ------- */
@@ -508,6 +510,11 @@ h4 {
 /* ------- Start  SOLUTION   solution   SOLUTION   ------- */
 /* ------- Start  SOLUTION   solution   SOLUTION   ------- */
 /* ------- Start  SOLUTION   solution   SOLUTION   ------- */
+
+#solution #imageRow {
+	margin-top: -0.5em;
+	margin-bottom: -0.5em;
+}
 
 #solution #img2 {
 	float: right;
@@ -528,18 +535,44 @@ h4 {
 	text-indent: 0;
 }
 
-#solution #nav {
-	margin-top: -1em;
-}
 
 @media screen and (max-width: 600px) {
 	#solution #img2 {
-	width: 100%;
-	height: 30em;
-	overflow: hidden;
-	margin: 5% auto 5% auto;
+		width: 100%;
+		height: 20em;
+		overflow: hidden;
+		margin: 5% auto 5% auto;
+	}
+
+	#solution #img2 img {
+		top: -5em;
 	}
 }
+
+@media screen and (max-width: 420px) {
+
+	#solution #row2 {
+		top: 4em;
+	}
+
+	#solution #img2 {
+		width: 100%;
+		height: 15em;
+		overflow: hidden;
+		margin: 1% auto 1% auto;
+	}
+
+	#solution #row2 {
+		margin-top: 2em;
+		position: static;
+	}
+
+	#solution .footer {
+		position: static;
+		height: 2em;
+		padding: 5%;
+	}
+
 
 /* ------- END  SOLUTION   solution   SOLUTION   ------- */
 /* ------- END  SOLUTION   solution   SOLUTION   ------- */
