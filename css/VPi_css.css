@@ -24,42 +24,18 @@ ul li {
 
 #mobile-menu {
 	display: none;
-	width: 100%;
+	width: 94%;
 	margin: 0;
-	padding: 0;
+	padding: 5% 3% 5% 3%;
 	position: static;
-	background: #989898;
+	background: #EAEAEA;
 }
 
 #mobile-menu img {
 	width: 80%;
-	display: inline-block;
+	display: block;
 	padding: 0;
-	margin: 0;
-}
-
-#mobile-menu p {
-	color: black;
-	width: 49%;
-	height: auto;
-	padding: 0;
-	margin: 0;
-	display: inline-block;
-	text-indent: 0;
-	vertical-align: middle;
-	font-weight: 900;
-	font-size: 2.5em;
-	text-align: center;
-}
-
-#mobile-menu p:last-child {
-	text-indent: -1em;
-}
-
-#mobile-menu div h4 {
-	margin: 0;
-	padding: 0;
-	text-align: center;
+	margin: 0 auto 0 auto;
 }
 
 .clear {
@@ -95,7 +71,6 @@ a:active {
 	display: block;
 	position: relative;
 	width: 100%;
-	clear: both;
 }
 
 #row2 {
@@ -345,6 +320,42 @@ h4 {
 		padding: 5%;
 	}
 
+}
+
+@media screen and (max-width: 420px) {
+	#menu {
+		display: none;
+	}
+
+	#mobile-menu {
+		display: inline-block;
+	}
+
+	#nav {
+		display: none;
+	}
+
+	/*mobile drop down naviation manipulation*/
+	#mobile-dd {
+		display: none;
+	}
+
+	#main-mobile-dd {
+		list-style: none;
+		padding: 0;
+		text-align: center;
+
+	}
+
+	#main-mobile-dd li {
+		color: #989898;
+		font-size: 1.5em;
+		padding: 1%;
+	}
+
+	#main-mobile-dd li:active {
+		color: black;
+	}
 }
 
 /* ------- END RESPONSIVE MANIPULATIONS ------- */
@@ -726,18 +737,36 @@ h4 {
 }
 
 @media screen and (max-width: 420px) {
-	#menu {
-		display: none;
+
+	#accredit #imageRow {
+		position: static;
 	}
 
-	#mobile-menu {
-		display: inline-block;
+	#accredit #imageRow h2 {
+		position: relative;
+		top: -5em;
 	}
 
-	#nav {
-		display: none;
+	#accredit #imageRow h3 {
+		position: relative;
+		top: -15em;
 	}
 
+	#accredit #imageRow img {
+		position: static;
+	}
+
+	#accredit #row2 {
+		position: static;
+	}
+
+	#accredit #row2 {
+		margin-top: -15%;
+	}
+
+	#accredit .footer {
+		position: static;
+	}
 }
 
 /* ------- END #ACCREDIT      #ACCREDIT        #ACCREDIT      ------- */
