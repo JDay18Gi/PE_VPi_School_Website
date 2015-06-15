@@ -432,12 +432,12 @@ h4 {
 
 	#problem #imageRow h2 {
 		position: relative;
-		top: -3em;
+		top: -3.5em;
 	}
 
 	#problem #imageRow h3 {
 		position: relative;
-		top: -10em;
+		top: -11em;
 	}
 
 	#problem #row2 {
@@ -515,25 +515,36 @@ h4 {
 }
 
 @media screen and (max-width: 420px) {
+
 	#students #imageRow {
-		margin-top: -1em;
-		z-index: 500;
+		position: static;
+		height: 100%;
+		margin-bottom: -10em;
 	}
 
 	#students #imageRow img {
-		bottom: 30%;
+		position: relative;
 	}
 
 	#students #imageRow h2 {
-		bottom: 30%;
+		position: relative;
+		top: -3.5em;
 	}
 
 	#students #imageRow h3 {
-		bottom: 30%;
+		position: relative;
+		top: -11em;
 	}
 
 	#students #row2 {
+		position: static;
 		margin-top: -4em;
+	}
+
+	#students .footer {
+		margin-top: 10%;
+		margin-bottom: 5%;
+		padding-bottom: 8%;
 	}
 }
 
