@@ -725,6 +725,46 @@ h4 {
 	}
 }
 
+
+@media screen and (max-width: 420px) {
+
+	#how #imageRow {
+		position: static;
+		height: 100%;
+		margin-bottom: -10em;
+	}
+
+	#how #imageRow img {
+		position: relative;
+	}
+
+	#how #imageRow h2 {
+		position: relative;
+		top: -3em;
+	}
+
+	#how #imageRow h3 {
+		position: relative;
+		top: -10em;
+	}
+
+	#how #img2 {
+		height: auto;
+	}
+
+	#how #row2 {
+		position: static;
+		margin-top: -4em;
+	}
+
+	#how .footer {
+		margin-top: 10%;
+		margin-bottom: 5%;
+		padding-bottom: 8%;
+	}
+}
+
+
 /* ------- END  HOW IT WORKS  how it works   ------- */
 /* ------- END  HOW IT WORKS  how it works   ------- */
 /* ------- END  HOW IT WORKS  how it works   ------- */
