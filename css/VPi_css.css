@@ -418,6 +418,40 @@ h4 {
 		}
 }
 
+@media screen and (max-width: 420px) {
+
+	#problem #imageRow {
+		position: static;
+		height: 100%;
+		margin-bottom: -10em;
+	}
+
+	#problem #imageRow img {
+		position: relative;
+	}
+
+	#problem #imageRow h2 {
+		position: relative;
+		top: -3em;
+	}
+
+	#problem #imageRow h3 {
+		position: relative;
+		top: -10em;
+	}
+
+	#problem #row2 {
+		position: static;
+		margin-top: -4em;
+	}
+
+	#problem .footer {
+		margin-top: 10%;
+		margin-bottom: 5%;
+		padding-bottom: 8%;
+	}
+}
+
 /* ------- END PROBLEM   PROBLEM   PROBLEM   ------- */
 /* ------- END PROBLEM   PROBLEM   PROBLEM   ------- */
 /* ------- END PROBLEM   PROBLEM   PROBLEM   ------- */
